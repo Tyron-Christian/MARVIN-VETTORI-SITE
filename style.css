@@ -52,9 +52,19 @@ span{
 
 /*inizio boxstoria*/
 
+.pcstoria{
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+}
 .boxstoria{
-    width: 100%;
+    width: 700px;
     background-color: rgb(206, 206, 206);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .fotopiccole{
@@ -63,6 +73,7 @@ span{
 }
 
 .storia{
+    width: 100%;
     color: black;
     font-size: 15px;
     font-weight: bold;
@@ -127,7 +138,7 @@ span{
         margin: 0;
         font-family: 'Sora', sans-serif;
     }
-    
+
     .boxtitolo{
         width: 100%;
         background-color: black; /*da schiarire un pochino*/
