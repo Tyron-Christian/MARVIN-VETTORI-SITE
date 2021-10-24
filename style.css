@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Sora', sans-serif;
+}
+
+.boxtitolo{
+    width: 100%;
+    background-color: black; /*da schiarire un pochino*/
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titolo{
+    font-size: 35px;
+    color: red;
+}
+
+span{
+    color: limegreen;
+    font-size: 35px;
+}
+
+/*inizio box foto*/
+
+.boxfoto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.foto{
+    width: 100%;
+    height: 250px;
+}
+
+/*fine box foto*/
+
+/*inizio boxstoria*/
+
+.boxstoria{
+    width: 100%;
+    background-color: rgb(206, 206, 206);
+}
+
+.fotopiccole{
+    width: 100%;
+    height: 200px;
+}
+
+.storia{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+/*fine box storia*/
+
+
+/*QUERY 500PX*/
+
+@media screen and (max-width : 500px){
+    /*BOX TITOLO*/
+    .titolo{font-size: 28px;}
+    span{font-size: 28px;}
+    /*FINE BOX TITOLO*/
+}
